@@ -1,84 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitzo Sport</title>
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/animaciones.css">
+  </head>
+  <body>
     <header id="header">
-        <img src="./assets/img/logo.png" alt="" width="50px">
-        <nav class="nav">
-            <label for="menu-nav" class="menu-nav">
-                <div class="menu-icon">
-                    <span class="menu-line"></span>
-                    <span class="menu-line"></span>
-                    <span class="menu-line"></span>
-                </div>
-            </label>
-            <input type="checkbox" id="menu-nav">
+      <img src="./assets/img/logo.png" alt="" width="50px" />
+      <nav class="nav">
+        <label for="menu-nav" class="menu-nav">
+          <div class="menu-icon">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </div>
+        </label>
+        <input type="checkbox" id="menu-nav" />
 
-            <ul class="nav-list">
-                <li><a href=""></a>Inicio</li>
-                <li><a href=""></a>Nosotros</li>
-                <li><a href=""></a>Productos</li>
-                <li><a href=""></a>Donde estamos?</li>
-            </ul>
-            <div class="overlay"></div>
-        </nav>
+        <ul class="nav-list">
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#benefist">Nosotros</a></li>
+          <li><a href="#cards">Envios</a></li>
+          <li><a href="#contact">Donde estamos?</a></li>
+        </ul>
+        <div class="overlay"></div>
+      </nav>
     </header>
 
     <main id="main">
+      <section id="hero">
+        <div class="hero-img">
+          <img src="./assets/img/sport.jpg" alt="Fit" />
+        </div>
 
-        <section id="hero">
+        <div class="hero-home">
+          <h1>Bienvenidos a <span>FITZO SPORT</span></h1>
+          <p>
+            Somos una marca comprometida con ofrecer prendas de alta calidad a
+            precios accesibles. Nuestro objetivo es alcanzar todo el país,
+            llevando estilo y confort a cada rincón. Todas nuestras prendas
+            están confeccionadas con telas de primera calidad, garantizando
+            comodidad y durabilidad para nuestros clientes. Al ser fabricantes
+            directos, aseguramos un control total sobre el proceso de producción
+            y precios competitivos.
+          </p>
+          <div class="home-btn">
+            <a href="./logeate.html">Logeate</a>
+            <a href="./registrate.html">Resgistrate</a>
+          </div>
+        </div>
+      </section>
 
-            <div class="hero-img">
-                <img src="./assets/img/sport.jpg" alt="Fit">
+      <section id="benefist">
+        <div class="benefist-info">
+          <h2>Como trabajamos?</h2>
+          <p>
+            Buscamos que el proceso sea de rapido y simple, ya que la comodidad
+            del cliente es nuestra prioridad, contamos con referencias de
+            nuestros clientes, solo requerimos una seña y cuando el pedido este
+            listo para enviar se abona el restante. Ofrecemos:
+          </p>
+
+          <div class="benefist-info_list">
+            <div class="benefist-info_list_box">
+              <img
+                src="./assets/img/almuerzo-cohete.png"
+                alt="Envios"
+                width="35px"
+              />
+              <h3>Envios</h3>
+              <p>
+                Trabajamos con envios a todo el pais solo requerimos que el
+                transporte de tu preferencia para poder coordinar. 🛩️
+              </p>
             </div>
-
-            <div class="hero-home">
-                <h1>Bienvenidos a <span>FITZO SPORT</span></h1>
-                <p>Somos una marca comprometida con ofrecer prendas de alta calidad a precios accesibles. Nuestro objetivo es alcanzar todo el país, llevando estilo y confort a cada rincón. Todas nuestras prendas están confeccionadas con telas de primera calidad, garantizando comodidad y durabilidad para nuestros clientes. Al ser fabricantes directos, aseguramos un control total sobre el proceso de producción y precios competitivos.
-                </p>
+            <div class="benefist-info_list_box">
+              <img src="./assets/img/monedas.png" alt="Pago" width="35px" />
+              <h3>Pago</h3>
+              <p>
+                Podes abonar con tarjeta, efectivo o transferencia, de la forma
+                que sea mas comoda que sea para vos. 😊
+              </p>
             </div>
-            
-
-        </section>
-
-        <section id="benefist">
-
-            <div class="benefist-info">
-                <h2>Como trabajamos?</h2>
-                <p>Buscamos que el proceso sea de rapido y simple, ya que la comodidad del cliente es nuestra prioridad, contamos con referencias de nuestros clientes, solo requerimos una seña y cuando el pedido este listo para enviar se abona el restante. Ofrecemos:
-                </p>
-
-                <div class="benefist-info_list">
-                    <div class="benefist-info_list_box">
-                        <img src="./assets/img/almuerzo-cohete.png" alt="Envios" width="35px">
-                        <h3>Envios</h3>
-                        <p>Trabajamos con envios a todo el pais solo requerimos que el transporte de tu preferencia para poder coordinar. 🛩️</p>
-                    </div>
-                    <div class="benefist-info_list_box">
-                        <img src="./assets/img/monedas.png" alt="Pago" width="35px">
-                        <h3>Pago</h3>
-                        <p>Podes abonar con tarjeta, efectivo o transferencia, de la forma que sea mas comoda que sea para vos. 😊</p>
-                    </div>
-                    <div class="benefist-info_list_box">
-                        <img src="./assets/img/calendario-lineas-boligrafo.png" alt="Personalizacion" width="35px">
-                        <h3>Personalizacion</h3>
-                        <p>Si queres algun diseño en especial para tu club o de tu preferencia, te realizamos la cotizacion y coordinamos. 🤓</p>
-                    </div>
-
-                </div>
-                
-
+            <div class="benefist-info_list_box">
+              <img
+                src="./assets/img/calendario-lineas-boligrafo.png"
+                alt="Personalizacion"
+                width="35px"
+              />
+              <h3>Personalizacion</h3>
+              <p>
+                Si queres algun diseño en especial para tu club o de tu
+                preferencia, te realizamos la cotizacion y coordinamos. 🤓
+              </p>
             </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <section id="cards">
+        <div class="cards ca">
+          <img src="./assets/img/transportes/CNG79aD5lPsCEAE=.webp" alt="" />
+          <p>
+            Correo Argentino es la empresa estatal de servicio postal y
+            logístico de Argentina. Se encarga de la distribución de
+            correspondencia, paquetería y documentos oficiales como DNI y
+            pasaportes. Además, ofrece soluciones para comercio electrónico,
+            pagos de servicios y apoyo logístico a organismos gubernamentales.
+          </p>
+        </div>
+        <div class="cards demo">
+          <img
+            src="./assets/img/transportes/286089795_5197926183669379_7554125118917272222_n.jpg"
+            alt=""
+          />
+          <p>
+            Expreso Demonte es una empresa argentina que ofrece soluciones de
+            transporte y logística en Corrientes, Chaco, Formosa, Buenos Aires,
+            Córdoba y Rosario. Sus servicios incluyen logística y distribución
+            de productos, gestión de pagos para proveedores, servicio de
+            contrarreembolso, manejo de cargas pesadas con autoelevadores y
+            gestión de compras en Buenos Aires y Rosario. La empresa se
+            compromete a cubrir hasta el 100% del valor declarado de la
+            mercadería en caso de daños o pérdidas durante el transporte
+          </p>
+        </div>
+        <div class="cards central">
+          <img
+            src="./assets/img/transportes/logo-chico-negro-4-2947x673.png"
+            alt=""
+          />
+          <p>
+            Central Argentino Encomiendas es una empresa argentina de transporte
+            de cargas y encomiendas, fundada en 1984. Su sede principal está en
+            Posadas, Misiones, y opera en más de 25 localidades de la provincia,
+            además de Corrientes, Chaco, Santa Fe, Córdoba y Buenos Aires.
+            Ofrece servicios de envíos puerta a puerta, contra reembolso, cargas
+            generales y servicio postal.
+          </p>
+        </div>
+        <div class="cards via">
+          <img
+            src="./assets/img/transportes/LOGO-VIA-CARGO-1024x285.jpg"
+            alt=""
+          />
+          <p>
+            Vía Cargo es una empresa argentina de transporte y logística que
+            ofrece servicios de encomiendas y distribución en todo el país.
+            Forma parte del grupo Vía Bariloche desde 1999 y cuenta con una
+            amplia red de sucursales. Brinda envíos puerta a puerta, seguimiento
+            online y soluciones adaptadas a las necesidades de sus clientes.
+          </p>
+        </div>
+      </section>
 
+      <section id="contact">
+        <div class="contact">
+            <h3>Estamos en</h3>
+            <p>Avenida Avellaneda 3640 - LOCAL 34</p>
+            <p>Telefono: 1159938873</p>
+            <div class="contact-icon">
+            <a href="#"><img src="./assets/img/facebook (1).png" alt="facebook"></a>
+            <a href="#"><img src="./assets/img/instagram (1).png" alt="instagram"></a>
+          </div>
+          </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.026484589135!2d-58.480281999999995!3d-34.628771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc99478f8c817%3A0x814c78f90e23cebc!2sAv.%20Avellaneda%203640%2C%20C1407EJQ%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1738264225056!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </section>
     </main>
-    
-</body>
+    <footer id="footer">
+      <p>Pagina Creada por Cristian Ramos</p>
+    </footer>
+  </body>
 </html>

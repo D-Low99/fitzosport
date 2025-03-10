@@ -7,7 +7,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    color: #ececee;
     font-family: "Poppins", sans-serif;
 }
 
@@ -27,7 +26,8 @@ body{
     padding: 5px 20px;
     box-shadow: 0px -5px 20px 16px #8c9299 ;
     position: fixed;
-    z-index: 2;
+    color: #ececee;
+
 }
 
 .nav{
@@ -40,6 +40,9 @@ body{
     align-items: center;
     gap: 20px;
 }
+.nav-list a{
+    color: #ececee;
+}
 
 .menu-icon {
     display: flex;
@@ -48,6 +51,8 @@ body{
     height: 20px;
     flex-direction: column;
     gap: 5px;
+    color: #ececee;
+
 }
 #menu-nav,
 .menu-nav{
@@ -58,6 +63,8 @@ body{
     width: 100%;
     height: 2px;
     background-color: #ececee;
+    color: #ececee;
+
 }
 
 
@@ -70,7 +77,6 @@ body{
     max-width: 800px;
 }
 .hero-img img{
-    padding-top: 30px;
     background-size: cover;
     width: 100vw;
 }
@@ -84,6 +90,8 @@ body{
     align-items: flex-start;
     flex-direction: column;
     padding: 50px;
+    color: #ececee;
+
 }
 
 #benefist{
@@ -102,6 +110,8 @@ body{
     align-items: center;
     padding: 100px 0px;
     text-align: center;
+    color: #ececee;
+
 }
 
 .benefist-info_list{
@@ -138,4 +148,80 @@ body{
 }
 .benefist-info_list_box P{
     font-size: 16px;
+}
+
+/*CARDS*/
+#cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+    padding: 0px 50px;
+    gap: 50px;
+}
+
+.cards img{
+    width: 500px;
+}
+
+.demo img{
+    order: 2;
+    height: 400px;
+}
+.via img{
+    order: 2;
+}
+
+.central,
+.ca{
+    background-color: #fccc04;
+}
+
+.via{
+    background-color: #f4f4f4 ;
+}
+.demo{
+    background-color: white;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 50px;
+}
+iframe{
+    border-radius: 1rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #ececee;
+
+}
+.contact h3{
+    font-size: 25px;
+}
+.contact-icon{
+    display: flex;
+    gap: 20px;
+}
+.contact-icon a>img{ 
+    width: 40px;
+} 
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
